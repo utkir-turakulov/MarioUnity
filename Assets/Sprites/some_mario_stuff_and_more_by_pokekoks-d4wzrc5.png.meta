@@ -2,15 +2,12 @@ fileFormatVersion: 2
 guid: 637aaeabbe5595847b332acb0ef62e15
 TextureImporter:
   fileIDToRecycleName:
-    21300000: some_mario_stuff_and_more_by_pokekoks-d4wzrc5_0
-    21300002: Mario_Stand
-    21300004: some_mario_stuff_and_more_by_pokekoks-d4wzrc5_2
-    21300006: some_mario_stuff_and_more_by_pokekoks-d4wzrc5_3
-    21300008: some_mario_stuff_and_more_by_pokekoks-d4wzrc5_4
-    21300010: Mario_Walk_1
-    21300012: Mario_Walk_2
-    21300014: Mario_Walk_3
-    21300016: Mario_Jump
+    21300000: Mario_Stand
+    21300002: Mario_Walk_1
+    21300004: Mario_Walk_2
+    21300006: Mario_Walk_3
+    21300008: Mario_Jump
+    21300010: Ground_Brick
   externalObjects: {}
   serializedVersion: 7
   mipmaps:
@@ -118,30 +115,10 @@ TextureImporter:
       name: Mario_Stand
       rect:
         serializedVersion: 2
-        x: 10
-        y: 513
-        width: 33
-        height: 39
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 94371301beca0254fb7c9928a6087024
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: some_mario_stuff_and_more_by_pokekoks-d4wzrc5_3
-      rect:
-        serializedVersion: 2
-        x: 6
+        x: 11
         y: 515
-        width: 39
-        height: 39
+        width: 30
+        height: 36
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -149,7 +126,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: beadf00173deefa4d8e08296613145a0
+      spriteID: 5b58050e3bc92c5409c1b405ba78b914
       vertices: []
       indices: 
       edges: []
@@ -158,10 +135,10 @@ TextureImporter:
       name: Mario_Walk_1
       rect:
         serializedVersion: 2
-        x: 9
-        y: 477
+        x: 10
+        y: 480
         width: 31
-        height: 33
+        height: 30
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -169,7 +146,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b7c855e21d8dca44db50b0b5a0673da2
+      spriteID: 19265506a2aab854cb72c0ea2c77bd43
       vertices: []
       indices: 
       edges: []
@@ -179,9 +156,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 51
-        y: 477
-        width: 31
-        height: 35
+        y: 479
+        width: 28
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -189,7 +166,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 672606b3a8ba9684394c008186f3a206
+      spriteID: 886bac8b35283e4459b8395fb7c3d606
       vertices: []
       indices: 
       edges: []
@@ -198,10 +175,10 @@ TextureImporter:
       name: Mario_Walk_3
       rect:
         serializedVersion: 2
-        x: 90
-        y: 477
+        x: 89
+        y: 478
         width: 28
-        height: 35
+        height: 33
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -209,7 +186,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ac2a5b3c19e13804f9d7be4ba03aead5
+      spriteID: c5ced253f2dc2c84f9b223e053fc8d43
       vertices: []
       indices: 
       edges: []
@@ -218,10 +195,10 @@ TextureImporter:
       name: Mario_Jump
       rect:
         serializedVersion: 2
-        x: 125
-        y: 476
+        x: 124
+        y: 475
         width: 39
-        height: 37
+        height: 35
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -229,7 +206,27 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b841d3f6e0f387543a6719f24ef22efa
+      spriteID: 589ce4e056a1a8049b403fdaeac42560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_Brick
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 529
+        width: 35
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 2, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa185d3c41a2cdb43a02659bb865f747
       vertices: []
       indices: 
       edges: []
@@ -237,7 +234,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 939f20a36965c364789587850423720a
+    spriteID: 367560c46eb47fe4db6acf69d4fd5d56
     vertices: []
     indices: 
     edges: []
